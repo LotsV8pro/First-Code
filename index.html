@@ -1,43 +1,75 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout con HTML</title>
-    <link rel="stylesheet" href="./CSS/style.css">
-</head>
-<body>
-    <header>
-        <h1>Header</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Iste, nihil.
-        </p>
-    </header>
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Layout con HTML</title>
+        <link rel="stylesheet" href="./CSS/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Header</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Iste, nihil.
+            </p>
+        </header>
 
-    <h2>Proyectos</h2>
-    <div class="container">
-        <div class="column-proyect"><img src="./Images/github.png" alt="Proyecto1"><img src="./Images/github.png" alt="Proyecto2"></div>
-        <div class="column-proyect"><img src="./Images/github.png" alt="Proyecto3"><img src="./Images/github.png" alt="Proyecto4"></div>
-        <div class="column-proyect"><img src="./Images/github.png" alt="Proyecto5"><img src="./Images/github.png" alt="Proyecto6"></div>
-    </div>
-    <div class="container">
-        <div class="single-column">Columna Única</div>
-    </div>
-    <div class="container">
-        <div class="column">Columna 4</div>
-        <div class="column">
-            <!-- Contenedor del mapa utilizando un iframe -->
-            <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=2.102295621879657%2C41.34491816569886%2C2.112295621879657%2C41.35491816569886&amp;layer=mapnik&amp;marker=41.34991816569886%2C2.107295621879657" allowfullscreen></iframe>
-        </div>
-    </div>
-
-    <footer>
+        <h2>Proyectos</h2>
         <div class="container">
-            <div class="column-footer">Footer 1</div>
-            <div class="column-footer">Footer 2</div>
-            <div class="column-footer">Footer 3</div>
+            <div class="column-proyect"><img src="./Images/Body/github.png" alt="Proyecto1"><img src="./Images/Body/github.png" alt="Proyecto2"></div>
+            <div class="column-proyect"><img src="./Images/Body/github.png" alt="Proyecto3"><img src="./Images/Body/github.png" alt="Proyecto4"></div>
+            <div class="column-proyect"><img src="./Images/Body/github.png" alt="Proyecto5"><img src="./Images/Body/github.png" alt="Proyecto6"></div>
         </div>
-    </footer>
-</body>
-</html>
+        <div class="container">
+            <div class="single-column">
+                <h4>¡Danos tu feedback!</h4>
+                <p>Es muy importante para nosotros recibir tus criticas y sugerencias</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="column">
+                <h5>Sobre el proyecto</h5>
+                <p>¡La inovacion del mañana viene del aprendizaje de ahora! 
+                    <br>
+                    Bienvenido al repositorio de proyectos web. Aqui podrásencontrar, de manera centralizada los distintos desarollados a lo largo de el curso 2020-2021</p>
+                </p>
+                <h5>Preguntas frequentes</h5>
+                    <p>¿Que es HTML?</p>
+                    <p>¿Que es CSS?</p>
+                    <p>¿Que es Git?</p>
+                    <p>¿Que es GitHub?</p>
+
+               
+            </div>
+            <div class="column">
+                <!-- Contenedor del mapa utilizando un iframe -->
+                <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=2.102295621879657%2C41.34491816569886%2C2.112295621879657%2C41.35491816569886&amp;layer=mapnik&amp;marker=41.34991816569886%2C2.107295621879657" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="column-footer transparent">
+                    <h3>¡Hecho en Barcelona con corazon y mucho cafe!</h3>
+                </div>
+                <div class="column-footer black">
+                    <h3>Soporte</h3>
+                    <p>Repositorio de github</p>
+                    <p>Reportar un error</p>
+                </div>
+                <div class="column-footer black">
+                    <h3>Diseñador</h3>
+                    <p>Twitter</p>
+                    <p>Instagram</p>
+                </div>
+            </div>
+        </footer>
+
+        <div class="subfooter">
+            <div class="container">
+                    <div class="subfooter-text">2021-2022</div>
+            </div>
+        </div>
+    </body>
+    </html>
